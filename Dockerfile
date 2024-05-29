@@ -1,2 +1,2 @@
 FROM alpine:latest
-CMD ["echo", "Hello, World!"]
+CMD ["sh", "-c", "echo 'Hello, World!' && tail -f /dev/null"]
